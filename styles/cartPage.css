@@ -1,0 +1,260 @@
+#nav1{
+    display:flex;
+    justify-content: space-around;
+    background-color:#bb2660;
+height: 60px;
+position: sticky;
+top:0px
+}
+#nav1 input{
+    width:60%;
+    height:50px;
+    border-radius: 15px;
+    margin-top: 3px;
+}
+#btn{
+    width:20%;
+    height:50px;
+    border-radius: 15px;
+    margin-top: 6px;  
+    margin-right: 10%; 
+}
+#navinp{
+    display:flex;
+    justify-content: space-evenly;
+    border:0px solid white;
+    width:40%;
+}
+
+#nav2{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #f5a5c4;
+    color:white;
+    height:50px;
+    margin-bottom: 10px;
+}
+/* footer */
+#icons{
+    margin-left: 10%;
+     width:80%;
+     border:1px solid #e34db8;
+     padding:7px;
+  }
+  .footer{
+     margin-top: 5%;
+     border:0px solid blue;
+     display:flex;
+     justify-content: space-between;
+     background-color: hsla(240, 4%, 68%, 0.63);
+     padding:5%;
+  }
+  .footer>div:nth-child(1){
+     border:0px solid red;
+     display:grid;
+     grid-template-columns: repeat(4,1fr);
+     gap:20px;
+     background-color: white;
+     margin-left: 5%;
+     padding:30px;
+  }
+  .footer>div:nth-child(1) p{
+     color:#0c0c0c;
+  }
+  .footer>div:nth-child(2){
+     padding:7px;
+     background-color: white;
+     border:0px solid green;
+     width:30%;
+     height:auto;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     text-align: center;
+  }
+  #signup p{
+     color:#0457c8;
+  }
+  #signup input{
+     padding:7px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+  }
+  #signup button{
+     padding:7px;
+     width:30%;
+     background-color: #bb2660;
+     color:white;
+     border:none;
+     border-radius: 7px;
+  
+  
+  }
+  #signup button:hover{
+    background-color: #ffe000;
+     color: #0046be;
+     border:1px solid #ffe000
+  }
+  #icons{
+     margin-top: 5%;
+     display:grid;
+     grid-template-columns: repeat(5,1fr);
+     gap:30px;
+  }
+
+
+  #shopping-title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+ }
+ .container {
+    background-color:#f5a5c4;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-radius: 20px;
+ }
+ #first-cont{
+    background-color: #fff;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+ }
+ #card-items{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-family: sans-serif;
+ }
+ .card{
+    display: flex;
+    background-color: #D5BFE7;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+ }
+ .card > div:nth-child(2){
+    margin-left: 30px;
+ }
+ #card-items img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+ }
+ .card button{
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+ }
+ .card button:hover{
+    cursor: pointer;
+    background-color: rgb(140, 94, 189);
+ }
+ .card span{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ 
+ #second-cont{
+    margin-left: 100px;
+    background-color: #fff;
+    padding: 25px;
+    height: fit-content;
+    width: 40%;
+    border-radius: 15px;
+ }
+ #checkout{
+    background-color:#bb2660;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #ffff;
+ }
+ #checkout:hover{
+    cursor: pointer;
+ }
+ .remove{
+    background-color: rgb(243, 103, 103);
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    width: fit-content;
+    padding: 15px;
+ }
+ .remove:hover{
+    cursor: pointer;
+ }
+ .summary{
+    font-family: sans-serif;
+    font-weight: 600;
+ 
+ }
+ /* Responsiveness */
+@media all and (min-width:320px) and (max-width:780px){
+   #nav1{
+      width:100%;
+      }
+   #navinp{
+      display:none;
+   }
+   #nav2{
+      display:none;
+   }
+
+   .footer{
+       
+       display:flex;
+       flex-direction: column;
+    }
+    #last{
+       display:grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+    #signup{
+       width:91%;
+       margin-left:35px;
+       margin-top:20px;
+    }
+
+   }
+
+    @media all and (min-width:780px) and (max-width:1500px) {
+       #nav1{
+          width:100%
+       }
+       #navinp{
+          display:none;
+       }
+       #nav2{
+          display:none;
+       }
+       .footer{
+           
+           display:flex;
+           flex-direction: column;
+        }
+        #last{
+           display:grid;
+           grid-template-columns: repeat(2,1fr);
+        }
+        #signup{
+           width:91%;
+           margin-left:35px;
+           margin-top:20px;
+        }
+       }
+ 

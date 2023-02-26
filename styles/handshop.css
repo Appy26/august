@@ -1,0 +1,330 @@
+#nav1{
+    display:flex;
+    justify-content: space-around;
+    background-color:#bb2660;
+height: 60px;
+position: sticky;
+top:0px
+}
+#nav1 input{
+    width:60%;
+    height:50px;
+    border-radius: 15px;
+    margin-top: 3px;
+}
+#btn{
+    width:20%;
+    height:50px;
+    border-radius: 15px;
+    margin-top: 6px;  
+    margin-right: 10%; 
+}
+#navinp{
+    display:flex;
+    justify-content: space-evenly;
+    border:0px solid white;
+    width:40%;
+}
+
+#nav2{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #f5a5c4;
+    color:white;
+    height:50px;
+    margin-bottom: 10px;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+#container img{
+    width:40%;
+}
+
+#icons{
+    margin-left: 10%;
+     width:80%;
+     border:1px solid #e34db8;
+     padding:7px;
+  }
+  .footer{
+     margin-top: 5%;
+     border:0px solid blue;
+     display:flex;
+     justify-content: space-between;
+     background-color: hsla(240, 4%, 68%, 0.63);
+     padding:5%;
+  }
+  .footer>div:nth-child(1){
+     border:0px solid red;
+     display:grid;
+     grid-template-columns: repeat(4,1fr);
+     gap:20px;
+     background-color: white;
+     margin-left: 5%;
+     padding:30px;
+  }
+  .footer>div:nth-child(1) p{
+     color:#0c0c0c;
+  }
+  .footer>div:nth-child(2){
+     padding:7px;
+     background-color: white;
+     border:0px solid green;
+     width:30%;
+     height:auto;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     text-align: center;
+  }
+  #signup p{
+     color:#0457c8;
+  }
+  #signup input{
+     padding:7px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+  }
+  #signup button{
+     padding:7px;
+     width:30%;
+     background-color: #bb2660;
+     color:white;
+     border:none;
+     border-radius: 7px;
+  
+  
+  }
+  #signup button:hover{
+    background-color: #ffe000;
+     color: #0046be;
+     border:1px solid #ffe000
+  }
+  #icons{
+     margin-top: 5%;
+     display:grid;
+     grid-template-columns: repeat(5,1fr);
+     gap:30px;
+  }
+ /* Main Section */
+ #main {
+   border: 0px solid black;
+   display: flex;
+   width: 60%;
+   justify-content: space-between;
+   margin: auto;
+   margin-top: 5%;
+   position: sticky;
+   top:10%;
+   /* padding: 30px; */
+}
+
+/* Filtering Div */
+.filtering{
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   background-color:rgba(133, 124, 124, 0.345);
+   padding: 30px 20px;
+   border-radius: 20px;
+   height: fit-content;
+   position: sticky;
+   top: 50px;
+   border:0px solid red
+}
+#categories{
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 10px;
+  
+}
+.categories-heading{
+   height: 40px;
+   font-family: inherit;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background-color:#b02c5f;
+   border-radius: 10px;
+   margin-bottom: 25px;
+   padding: 10px;
+}
+.categories{
+   margin-bottom: 15px;
+}
+.categories > div{
+   display: flex;
+   align-items: center;
+}
+.filtering > div:nth-child(2){
+   margin-top: 40px;
+}
+.clear main{
+  background-color: #fff;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: -5px;
+}
+.clear:hover{
+  cursor: pointer;
+  color: rgb(171, 144, 199);
+}
+
+/* Round Boxes */
+.round-box{
+   height: 13px;
+   width: 13px;
+   border: 1px solid black;
+   border-radius: 6px;
+   margin-right: 25px;
+   margin-left: 10px;
+}
+#search-results{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: auto;
+   margin-left: 40px;
+   background-color:#d5bfe7;
+   padding: 30px;
+   gap: 20px;
+   border-radius: 20px;
+}
+#pagination{
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   width: 30%;
+   margin: auto;
+   margin-top: 50px;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: #fff;
+}
+#pagination button{
+   margin-left: 15px;
+   height: 40px;
+   width: 40px;
+   border-radius: 5px;
+   font-weight: 700;
+   font-size: 14px;
+   color: white;
+   border: none;
+   background-color: grey;
+
+}
+#pagination button:hover{
+   cursor: pointer;
+}
+
+#parentofall{
+   /* display:grid;
+   grid-template-columns: repeat(2,1fr); */
+   display:flex;
+   justify-content: space-around;
+   border: 0px solid green;
+   padding-top: 2%;
+   padding-bottom: 1%;
+   padding-left: 4.7%;
+   padding-right: 4.7%;
+}
+
+
+#container{
+   width:100%;
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   gap:10px;
+   border:0px solid rgb(255, 60, 0);
+   margin-left: 3%;
+}
+#container img{
+   width:70%;
+  
+}
+#container>div{
+   border: 1px solid grey;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: rgba(198, 43, 201, 0.2) 0px 8px 24px;
+   background-color:rgb(215, 208, 208);
+   color:black;
+}
+
+/* Responsiveness */
+@media all and (min-width:320px) and (max-width:780px){
+   #nav1{
+      width:100%;
+      }
+   #navinp{
+      display:none;
+   }
+   #nav2{
+      display:none;
+   }
+
+   .footer{
+       
+       display:flex;
+       flex-direction: column;
+    }
+    #last{
+       display:grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+    #signup{
+       width:91%;
+       margin-left:35px;
+       margin-top:20px;
+    }
+    .filtering{
+      border:0px solid black
+   }
+   #container{
+      width:100%;
+      border:0px solid red;
+      display:grid;
+      grid-template-columns: repeat(1,1fr);
+   }
+
+   }
+
+    @media all and (min-width:780px) and (max-width:1500px) {
+       #nav1{
+          width:100%
+       }
+       #navinp{
+          display:none;
+       }
+       #nav2{
+          display:none;
+       }
+       .footer{
+           
+           display:flex;
+           flex-direction: column;
+        }
+        #last{
+           display:grid;
+           grid-template-columns: repeat(2,1fr);
+        }
+        #signup{
+           width:91%;
+           margin-left:35px;
+           margin-top:20px;
+        }
+        .filtering{
+         border:0px solid black
+      }
+      #container{
+         width:100%;
+         border:0px solid red;
+         display:grid;
+         grid-template-columns: repeat(2,1fr);
+      }
+       }
